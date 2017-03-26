@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Zadaca1RMA</string>
+    <string name="app_title">Utjecajne osobe u računarstvu</string>
+    <string name="TuringName">Alan</string>
+    <string name="TuringSurname">Turing</string>
+    <string name="WozName">Steven</string>
+    <string name="WozSurname">Wozniak</string>
+    <string name="LinusName">Linus</string>
+    <string name="LinusSurname">Torvalds</string>
+    <string name="TuringTitle">Otac Računarstva</string>
+    <string name="WozTitle">Otac Apple I i Apple II računala</string>
+    <string name="LinusTitle">Otac Linuxa</string>
+    <string name="WozBirth">11-08-1950</string>
+    <string name="LinusBirth">28-12-1969</string>
+    <string name="TuringBirth">23-06-1912</string>
+    <string name="TuringDeath">07-06-1954</string>
+    <string name="WozBio">
+
+        Steven Gary Wozniak je američki računalni znanstvenik.
+        Najpoznatija činjenica o njemu jest da je zajedno sa Steve Jobsom osnovao tvrtku Apple Computers.
+        Njegova dva najvažnija izuma su Apple I(1976. godine) i Apple II(1977. godine) osobna računala koja su bila jedna od prvih osobnih računala ikada.
+        U mladosti je volio raditi podvale, te je jedna od njegovih najpoznatijih podvala kada je pomoću Blueboxa nazvao papu.
+        Woz je dva puta otišao iz Apple-a, prvi put nakon njegove avionske nesreće 1981., te drugi put 1985. godine kada je otišao za stalno.
+        Danas radi kao profesor na fakultetu u Sydney-u, te putuje svijetom i drži predavanja.
+
+    </string>
+    <string name="LinusBio">
+
+        Linus Torvalds je finski software inženjer koji je izumio Linux kernel.
+        Kernel je napisao u sklopu diplomskog rada kada je imao samo 21. godinu.
+        Zanimanje za računarstvo je potakao njegov susret s računalom VIC-20.
+        1991. godine je kupio IBM PC i nabavio MINIX OS, nakon čega je počeo razvoj na Linuxu.
+        25. kolovoza 1991. godine je objavio Linux kernel na internetu, na Usenet tematskoj grupi.
+        Također je napravio i Git, sustav za upravljanje izvornim kodom.
+
+    </string>
+    <string name="TuringBio">
+
+        Alan Turing je otac računarstva.
+        Bio je engleski matematičar, te je vodio tim ljudi koji je za vrijeme drugog svjetskog rata osmislio prvo računalo.
+        Računalo se koristilo za dekriptiranje njemačkih poruka.
+        1936. je objavio rad u kojem opisuje Turingov stroj, te daje koncepte na kojima se temelje sva moderna računala.
+        Nakon drugog svjetskog rada je dobio orden britanskog carstva za svoj rad.
+        Umro je 1954. od posljedica trovanja cijanidom.
+
+    </string>
+    <string name="toastString">Toast me a quote!</string>
+</resources>

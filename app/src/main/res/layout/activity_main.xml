@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="5pt"
+                android:text="@string/app_title"
+                android:textAlignment="center"
+                android:textSize="12pt"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/ImBtnTuring"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:src="@drawable/turing_img"
+                android:layout_below="@id/tvTitle"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/tvTuring"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:layout_below="@id/tvTitle"
+                android:paddingBottom="3pt"
+                android:paddingTop="5pt"
+                android:text="@string/TuringName"
+                android:textAlignment="center"
+                android:elegantTextHeight="true"
+                android:textSize="10pt"
+                android:layout_toRightOf="@id/ImBtnTuring"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tvTuringTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:layout_below="@id/tvTuring"
+                android:paddingBottom="3pt"
+                android:paddingTop="3pt"
+                android:text="@string/TuringTitle"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:layout_toRightOf="@id/ImBtnTuring"
+                android:layout_alignParentRight="true"
+                android:textStyle="italic"/>
+
+            <ImageButton
+                android:id="@+id/ImBtnWoz"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:src="@drawable/woz_img"
+                android:layout_below="@id/ImBtnTuring"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/tvWoz"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:paddingBottom="3pt"
+                android:paddingTop="5pt"
+                android:text="@string/WozName"
+                android:textAlignment="center"
+                android:textSize="10pt"
+                android:layout_toRightOf="@id/ImBtnWoz"
+                android:layout_below="@id/tvTuringTitle"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/tvWozTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:layout_below="@id/tvWoz"
+                android:paddingBottom="3pt"
+                android:paddingTop="3pt"
+                android:text="@string/WozTitle"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:layout_toRightOf="@id/ImBtnWoz"
+                android:layout_alignParentRight="true"
+                android:textStyle="italic"/>
+
+            <ImageButton
+                android:id="@+id/ImBtnLinus"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:src="@drawable/linus_img"
+                android:layout_below="@id/ImBtnWoz"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/tvLinus"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:paddingBottom="3pt"
+                android:paddingTop="5pt"
+                android:text="@string/LinusName"
+                android:textAlignment="center"
+                android:textSize="10pt"
+                android:layout_toRightOf="@id/ImBtnLinus"
+                android:layout_below="@id/tvWozTitle"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/tvLinusTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:layout_below="@id/tvLinus"
+                android:paddingBottom="3pt"
+                android:paddingTop="3pt"
+                android:text="@string/LinusTitle"
+                android:textAlignment="center"
+                android:textSize="8pt"
+                android:layout_toRightOf="@id/ImBtnLinus"
+                android:layout_alignParentRight="true"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvLinusTitle"
+                android:textSize="8pt"
+                android:paddingBottom="3pt"
+                android:paddingTop="3pt"
+                android:paddingLeft="3pt"
+                android:paddingRight="3pt"
+                />
+
+            <Button
+                android:id="@+id/btnQuote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/toastString"
+                android:layout_below="@id/tvDescription"
+                android:enabled="false"
+                android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
